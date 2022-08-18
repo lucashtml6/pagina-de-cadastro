@@ -1,0 +1,34 @@
+@media (max-width: 425px) {
+  .form .header-cadastro .titulo-principal {
+    font-size: 2.5rem;
+  }
+
+  .form {
+    padding: 20px 40px;
+  }
+  
+  .form .input-linha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+  }
+  
+  .form .input-linha > input {
+    width: 100%;
+  }
+
+  .form .input-text input {
+    height: 2.7rem;
+  }
+
+  .form .titulo-genero {
+    font-size: 1.8rem;
+  }
+
+  .form .container-btn > button {
+    margin-top: 20px;
+    padding: 7px 0;
+  }
+  
+
+}

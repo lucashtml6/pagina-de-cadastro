@@ -1,1 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  min-height: 100vh;
+  background: url(../img/12371717_4964746.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form {
+  background-color: #220231;
+  width: 50rem;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+  -webkit-box-shadow: 1px 1px 32px 10px rgba(0,0,0,0.82); 
+  box-shadow: 1px 1px 32px 10px rgba(0,0,0,0.82);
+}
+
+.form .header-cadastro .titulo-principal {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #Fff;
+}
+
+.form .input-linha {
+  display: flex;
+  gap: 10px
+}
+
+.form .input-linha > input {
+  width: 50%;
+}
+
+.form .input-text > input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form .input-text input {
+  height: 3rem;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+.form .input-text {
+  margin-bottom: 20px;
+}
+
+.form .titulo-genero {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 400px;
+  color: #fff;
+}
+
+.form .item-radio > label {
+  font-size: 1.2rem;
+  margin-left: 2px;
+  color: #fff;
+}
+
+.form .container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.form .container-btn > button {
+  margin-top: 20px;
+  padding: 7px 0;
+  border-radius: 6px;
+  width: 100%;
+  -webkit-box-shadow: inset 0px -3px 0px 1px #00000042; 
+  box-shadow: inset 0px -3px 0px 1px #00000042;
+  transition: transform .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.form .container-btn > button:hover {
+  transform: scale(1.02);
+}
+
+.form .container-cadastro-redes-sociais {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .line {
+  width: 8rem;
+  height: 0.2rem;
+  margin-bottom: 20px;
+  background-color: rgba(56, 0, 88, 0.151)
+}
+
+
+.form .texto-cadastro-redes-sociais {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.form .redes-sociais > a {
+  display: inline-block;
+  background-color: #170022;
+  color: #fff;
+  border-radius: 10px;
+  transition: transform .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-box-shadow: inset 0px -2px 0px 1px #00000042; 
+  box-shadow: inset 0px -2px 0px 1px #00000042;
+}
+
+.form .redes-sociais > a:hover {
+  transform: translateY(-2px);
+}
+
+.form .redes-sociais > a > svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.form .termos {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+
+.form .termos > label {
+  color: #fff;
+
+}
+
+.titulo-parabens {
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: #170022;
+}
